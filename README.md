@@ -1,4 +1,4 @@
-# Semantic-Similarity-on-Quora-Question-Pairs
+# Semantic Similarity Detection on Quora Question Pairs
 The objective of this project is to determine whether two questions are similar. 
 <br>The Quora Question Pairs dataset was used which is available on Kaggle. 
 ## Exploratory Data Analysis
