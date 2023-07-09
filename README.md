@@ -22,9 +22,9 @@ In this project out of 404290 question pairs, random 30000 samples were used.
 Number of Training samples = 24000 , Number of Test samples = 600 
 ## Feature Extraction 
 Two methods were used for feature extraction. These were extracted uing sklean.feature_extraction.text.
-
 1. Bag of words (BoW) 
 2. Term frequency inverse document frequency (TfIdf)
+   
 ## Model 
 Three models were tested in this project 
 1. Random Forest Model
@@ -46,7 +46,8 @@ Since the data is imbalanced, F1 score metric and confusion matrix were used to 
 ![xgb_tfidf_f1](images/xgb_tfidf_f1.png)
 ![xgb_tfidf](images/xgb_tfidf.png)
 ### Sentence Transformer + XG Boost 
-
+![Tran_xgb_f1](images/Tran_xgb_f1.png)
+![Tran_XGB](images/Tran_XGB.png)
 ## Discussion 
 The best performing model was Random Forest using TfIdf features which gave a F1 score of 0.74.
 <br> To improve the current model, I would like to explore the following methods
