@@ -26,9 +26,11 @@ Two methods were used for feature extraction. These were extracted uing sklean.f
 1. Bag of words (BoW) 
 2. Term frequency inverse document frequency (TfIdf)
 ## Model 
-Two models were tested in this project 
+Three models were tested in this project 
 1. Random Forest Model
-2. XG Boost Model 
+2. XG Boost Model
+3. Sentence Transformer + XG Boost
+
 ## Results
 Since the data is imbalanced, F1 score metric and confusion matrix were used to evaluate the performance of the model 
 ### Random Forest + BoW
@@ -43,6 +45,8 @@ Since the data is imbalanced, F1 score metric and confusion matrix were used to 
 ### XG Boost + TfIdf
 ![xgb_tfidf_f1](images/xgb_tfidf_f1.png)
 ![xgb_tfidf](images/xgb_tfidf.png)
+### Sentence Transformer + XG Boost 
+
 ## Discussion 
 The best performing model was Random Forest using TfIdf features which gave a F1 score of 0.74.
 <br> To improve the current model, I would like to explore the following methods
